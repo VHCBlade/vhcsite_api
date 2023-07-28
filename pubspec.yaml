@@ -1,0 +1,45 @@
+name: vhcsite_api
+description: An new Dart Frog application
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+      
+  dart_frog: ^0.3.0
+  dart_frog_cors: ^1.0.0
+
+  event_authentication: ^0.1.2+1
+  event_bloc: ^4.2.1
+  event_db: ^0.1.20
+  event_file: ^0.1.1
+  event_frog: ^0.1.4
+  event_frog_logger: ^0.2.0
+  # event_frog: 
+  #   path: ../event_frog
+  event_hive: ^0.1.6
+  # event_hive:
+  #   git: 
+  #     url: https://github.com/VHCBlade/event_hive
+  #     ref: v0.1.5
+  
+  hive: ^2.2.3
+  image: ^4.0.17
+  intl: ^0.18.0
+
+  mime: ^1.0.4
+  path: ^1.8.3
+
+  tuple: ^2.0.1
+
+  vhcsite_models: ^1.0.0
+
+dev_dependencies:
+  event_bloc_tester: ^0.1.5
+  http: ^1.1.0
+
+  mocktail: ^0.3.0
+  test: ^1.19.2
+  very_good_analysis: ^5.0.0
