@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:dart_frog/dart_frog.dart';
 import 'package:dart_frog_cors/dart_frog_cors.dart';
+import 'package:event_api/event_api.dart';
 import 'package:event_authentication/event_authenticator_db.dart';
 import 'package:event_bloc/event_bloc.dart';
 import 'package:event_db/event_db.dart';
@@ -38,6 +39,7 @@ final _providers = <Middleware>[
     (context) => const EventEnvironment(),
   ),
   provider<DatabaseRepository>((context) => _hiveRepository),
+  provider<APIRepository>((context) => _apiRepository),
   provider<FileRepository>(
     (context) => LocalFileRepository(Directory('../vhcsite-files')),
   ),
@@ -68,3 +70,11 @@ final _hiveRepository = HiveRepository(typeAdapters: modelTypeAdapters)
 final _secretRepository =
     FileSecretsRepository(secretsFile: '../vhcsite_api_hive/secrets.txt')
       ..initialize(BlocEventChannel());
+
+final _apiRepository = APIRepository(
+  database: SpecificDatabase(_hiveRepository, 'History'),
+  requester: ServerAPIRequester(
+    apiServer: 'https://vhcblade.com/',
+    website: 'https://vhcblade.com',
+  ),
+);

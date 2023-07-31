@@ -11,6 +11,7 @@ dependencies:
   dart_frog: ^0.3.0
   dart_frog_cors: ^1.0.0
 
+  event_api: ^0.2.1
   event_authentication: ^0.1.2+1
   event_bloc: ^4.2.1
   event_db: ^0.1.20

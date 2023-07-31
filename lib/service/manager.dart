@@ -1,4 +1,5 @@
 import 'package:dart_frog/dart_frog.dart';
+import 'package:vhcsite_api/service/version.dart';
 import 'package:vhcsite_api/service/views.dart';
 import 'package:vhcsite_models/vhcsite_models.dart';
 
@@ -9,6 +10,9 @@ class ServiceManager {
         provider<InternalBlogViewsService>(
           (context) => const InternalBlogViewsService(),
         ),
+        provider<InternalVersionService>(
+          (context) => const InternalVersionService(),
+        ),
       ];
 }
 
@@ -16,4 +20,7 @@ class ServiceManager {
 extension RequestContextServices on RequestContext {
   /// For [BlogViews]
   InternalBlogViewsService get blogViewsService => read();
+
+  /// For the version of VHCSite
+  InternalVersionService get versionService => read();
 }

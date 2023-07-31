@@ -1,0 +1,22 @@
+[
+  "0",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-amazing-blog\\\",\\\"viewCount\\\":0,\\\"id\\\":\\\"BlogViews::cool-amazing-blog\\\"}\"",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-great-blog\\\",\\\"viewCount\\\":0,\\\"id\\\":\\\"BlogViews::cool-great-blog\\\"}\"",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-incredible-blog\\\",\\\"viewCount\\\":0,\\\"id\\\":\\\"BlogViews::cool-incredible-blog\\\"}\"",
+  "1",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-amazing-blog\\\",\\\"viewCount\\\":1,\\\"id\\\":\\\"BlogViews::cool-amazing-blog\\\"}\"",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-great-blog\\\",\\\"viewCount\\\":2,\\\"id\\\":\\\"BlogViews::cool-great-blog\\\"}\"",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-incredible-blog\\\",\\\"viewCount\\\":0,\\\"id\\\":\\\"BlogViews::cool-incredible-blog\\\"}\"",
+  "2",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-amazing-blog\\\",\\\"viewCount\\\":2,\\\"id\\\":\\\"BlogViews::cool-amazing-blog\\\"}\"",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-great-blog\\\",\\\"viewCount\\\":4,\\\"id\\\":\\\"BlogViews::cool-great-blog\\\"}\"",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-incredible-blog\\\",\\\"viewCount\\\":0,\\\"id\\\":\\\"BlogViews::cool-incredible-blog\\\"}\"",
+  "3",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-amazing-blog\\\",\\\"viewCount\\\":3,\\\"id\\\":\\\"BlogViews::cool-amazing-blog\\\"}\"",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-great-blog\\\",\\\"viewCount\\\":6,\\\"id\\\":\\\"BlogViews::cool-great-blog\\\"}\"",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-incredible-blog\\\",\\\"viewCount\\\":0,\\\"id\\\":\\\"BlogViews::cool-incredible-blog\\\"}\"",
+  "4",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-amazing-blog\\\",\\\"viewCount\\\":4,\\\"id\\\":\\\"BlogViews::cool-amazing-blog\\\"}\"",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-great-blog\\\",\\\"viewCount\\\":8,\\\"id\\\":\\\"BlogViews::cool-great-blog\\\"}\"",
+  "\"{\\\"type\\\":\\\"BlogViews\\\",\\\"path\\\":\\\"cool-incredible-blog\\\",\\\"viewCount\\\":0,\\\"id\\\":\\\"BlogViews::cool-incredible-blog\\\"}\""
+]

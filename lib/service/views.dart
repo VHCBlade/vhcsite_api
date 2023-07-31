@@ -13,9 +13,10 @@ class InternalBlogViewsService {
     final views = await context.vhcsiteDatabase
         .findModel<BlogViews>(BlogViews().prefixTypeForId(path));
 
-    return views ?? BlogViews()
-      ..path = path
-      ..viewCount = 0;
+    return views ??
+        (BlogViews()
+          ..path = path
+          ..viewCount = 0);
   }
 
   /// Saves the given [views] to the appropriate database
