@@ -5,7 +5,7 @@ import 'package:mocktail/mocktail.dart';
 import 'package:test/test.dart';
 import 'package:vhcsite_api/vhcsite_api.dart';
 
-import '../../../../../routes/blog/[path]/views/index.dart' as blogViews;
+import '../../../../../routes/blog/[path]/views/index.dart' as blog_views;
 
 void main() {
   group('Blog Path Views', () {
@@ -20,7 +20,7 @@ void main() {
           tester
             ..addTestValue(i)
             ..addTestValue(
-              await (await blogViews.onRequest(
+              await (await blog_views.onRequest(
                 _MockRequestContext(
                   Request.get(Uri.parse('https://example.com/')),
                   database,
@@ -30,7 +30,7 @@ void main() {
                   .body(),
             )
             ..addTestValue(
-              await (await blogViews.onRequest(
+              await (await blog_views.onRequest(
                 _MockRequestContext(
                   Request.get(Uri.parse('https://example.com/')),
                   database,
@@ -40,7 +40,7 @@ void main() {
                   .body(),
             )
             ..addTestValue(
-              await (await blogViews.onRequest(
+              await (await blog_views.onRequest(
                 _MockRequestContext(
                   Request.get(Uri.parse('https://example.com/')),
                   database,
@@ -49,21 +49,21 @@ void main() {
               ))
                   .body(),
             );
-          await blogViews.onRequest(
+          await blog_views.onRequest(
             _MockRequestContext(
               Request.post(Uri.parse('https://example.com/')),
               database,
             ),
             'cool-great-blog',
           );
-          await blogViews.onRequest(
+          await blog_views.onRequest(
             _MockRequestContext(
               Request.post(Uri.parse('https://example.com/')),
               database,
             ),
             'cool-great-blog',
           );
-          await blogViews.onRequest(
+          await blog_views.onRequest(
             _MockRequestContext(
               Request.post(Uri.parse('https://example.com/')),
               database,

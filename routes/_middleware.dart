@@ -1,13 +1,13 @@
 import 'dart:io';
 
 import 'package:dart_frog/dart_frog.dart';
-import 'package:dart_frog_cors/dart_frog_cors.dart';
 import 'package:event_api/event_api.dart';
 import 'package:event_authentication/event_authenticator_db.dart';
 import 'package:event_bloc/event_bloc.dart';
 import 'package:event_db/event_db.dart';
 import 'package:event_file/event_file.dart';
 import 'package:event_frog/event_frog.dart';
+import 'package:event_frog_cors/event_frog_cors.dart';
 import 'package:event_frog_logger/event_frog_logger.dart';
 import 'package:vhcsite_api/vhcsite_api.dart';
 

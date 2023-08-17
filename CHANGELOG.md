@@ -1,3 +1,7 @@
+## 1.1.1
+
+- Changed to use event_frog_cors instead of dart_frog_cors
+
 ## 1.1.0
 
 - Added Version Check
