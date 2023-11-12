@@ -1,4 +1,5 @@
 import 'package:dart_frog/dart_frog.dart';
+import 'package:event_db/event_db.dart';
 import 'package:vhcsite_api/repository/hive.dart';
 import 'package:vhcsite_models/vhcsite_models.dart';
 

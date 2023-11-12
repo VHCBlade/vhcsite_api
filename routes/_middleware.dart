@@ -59,7 +59,7 @@ final _providers = <Middleware>[
     ),
   ),
   provider<AuthenticatedResponseBuilder>(
-    (context) => AuthenticatedResponseBuilder(),
+    (context) => const AuthenticatedResponseBuilder(),
   ),
   ...ServiceManager.middlewares,
 ];

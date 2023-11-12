@@ -1,3 +1,7 @@
+## 1.1.2
+
+- Added public folder for serving resume.pdf
+
 ## 1.1.1
 
 - Changed to use event_frog_cors instead of dart_frog_cors
